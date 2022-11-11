@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos B7 JavaScript</title>
 </head>
+
 <body>
     <h1>Dlecaração de Variaveis e Condicionais</h1>
-<p> Else e If - Separados ( Exemplo 1 ) </p>
-<p> If Else  - Juntos ( Exemplo 2) </p>
-<p> Var = nome da variavel  = " O valor da variável"  //  ;  Este caso se denomina STRING;</p>
-<p>Let  //  Só pode ser chamada dentro do próprio escopo;  Pode ser redefinida;</p>
-<p>const = "" //  É algo CONSTANTE ,não pode definir um novo valor; Muito utilizada em Arrays e Objetos;</p>
+    <p> Else e If - Separados ( Exemplo 1 ) </p>
+    <p> If Else - Juntos ( Exemplo 2) </p>
+    <p> Var = nome da variavel = " O valor da variável" // ; Este caso se denomina STRING;</p>
+    <p>Let // Só pode ser chamada dentro do próprio escopo; Pode ser redefinida;</p>
+    <p>const = "" // É algo CONSTANTE ,não pode definir um novo valor; Muito utilizada em Arrays e Objetos;</p>
 
 
-<h1> DOM - Document Object Model</h1>
-<a id="exemplo"> Mensagem que vai ser alterada com o DOM </a>
-<p> Acima está sendo mostrada uma mensagem alterada por Javascript </p>
-<p> No arquivo Javascript este ID está sendo puxado pelo GetElementByID, e está sendo alterado pelo valor atribuido ao InnerHTML;</p>
+    <h1> DOM - Document Object Model</h1>
+    <div id="exemplo"> Mensagem que vai ser alterada com o DOM </div>
+    <p> Acima está sendo mostrada uma mensagem alterada por Javascript </p>
+    <p> No arquivo Javascript este ID está sendo puxado pelo GetElementByID, e está sendo alterado pelo valor atribuido
+        ao InnerHTML;</p>
 
-
-
+    <p>No caso de uma class, utilizamos o comando GetElementsbyClass, onde nos retornará um Array;</p>
+    <p>Para selecionar uma classe específica,usamos o denominador [ ], que determina índice. (Exemplo alterando a class
+        abaixo)</p>
+    <div class="alterar"> Este elemento será alterada com DOM ( by Class )</div>
+    <br>
+    <div class="alterar"> Este segundo elemento será alterado com DOM (by Class por índice) </div><br>
+    <button> Alteração por Tag</button>
+    <input type="text" name="Email" placeholder="Digite seu E-mail">
 
     <script src="Js.js"></script>
 </body>
+
 </html>
