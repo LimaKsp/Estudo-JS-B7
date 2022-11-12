@@ -43,3 +43,49 @@ document.getElementsByTagName("button")[0].innerHTML =
 /* Exemplo Get by Input */
 
 document.getElementsByName("email")[0].innerHTML = "alterar por nome";
+
+/* QuerrySelector */
+
+document.querySelector('button')
+document.querySelector('button').innerHTML= "Opa";
+
+/* Alteração de campo */
+
+function verde() {
+  document.querySelector('.color').classList.remove('vermelho');
+  document.querySelector('.color').classList.remove('azul');
+  document.querySelector('.color').classList.add('verde');
+
+}
+
+function vermelho(){
+  document.querySelector('.color').classList.remove('verde');
+  document.querySelector('.color').classList.remove('azul');
+document.querySelector('.color').classList.add('vermelho');
+}
+
+function azul(){
+  document.querySelector('.color').classList.remove('vermelho');
+  document.querySelector('.color').classList.remove('verde');
+  document.querySelector('.color').classList.add('azul');
+}
+
+function Nofound() {
+  document.querySelector('.color').classList.remove('verde');
+  document.querySelector('.color').classList.remove('vermelho');
+  document.querySelector('.color').classList.remove('azul');
+}
+
+
+/* Alteração do botão por funções */
+
+function change(){
+  if (document.querySelector('.mud').classList.contains('verde')){
+  document.querySelector('.mud').classList.remove('verde');
+  document.querySelector('.mud').classList.add('azul');
+}
+else{
+  document.querySelector('.mud').classList.remove('azul');
+  document.querySelector('.mud').classList.add('verde');
+}
+}
