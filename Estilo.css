@@ -1,3 +1,4 @@
+
 .color{
     width: 300px;
     height: 20;
@@ -17,6 +18,28 @@
     background-color: blue;
 }
 
+.corpo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.scrollbutton{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    right: 20px;
+    bottom: 5px;
+    z-index: 999;
+    cursor: pointer;
+    display: flex;
+}
+
+.none{
+    display: none;
+}
 .blob{
     height: 150px;
     width: 150px;
